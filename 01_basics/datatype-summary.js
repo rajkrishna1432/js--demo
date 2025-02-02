@@ -15,6 +15,9 @@ const anotherid = Symbol('123')
 console.log(id=== anotherid);
 
 const bigNumber = 234567823456n
+
+//NonPrimitive(refrence)
+//Array,Objects,Function
 const heros = ["Shaktiman","Iron Man","thor"];
 
 let myObj={
@@ -26,5 +29,6 @@ const myFunction = function(){
     console.log("hello");
     
 }
-//NonPrimitive(refrence)
-//Array,Objects,Function
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// stack(primitive),heap (Non primitive)
